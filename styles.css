@@ -1,0 +1,43 @@
+body{
+background-color: #f2a07b;
+text-align: center;
+}
+h1{
+  text-align: center;
+  margin-top: 50px;
+}
+p.tags{
+  font-size: 110%;
+  font-weight: bold;
+}
+  regForm {
+/* margin-left: 70px; */
+font-weight: bold ;
+float: left;
+clear: left;
+/* width: 150px; */
+text-align: left;
+margin-right: 10px;
+font-family:sans-serif,bold, Arial, Helvetica;
+font-size:14px;
+}
+
+div {
+box-sizing: border-box;
+width: 100%;
+border: 100px solid black;
+float: left;
+align-content: center;
+align-items: center;
+}
+.formbox{
+
+border-width: 2px;
+border-color: #000000;
+border:1px;
+}
+
+form {
+margin: 0 auto;
+width: 600px;
+}

@@ -1,0 +1,65 @@
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+  <title>Web Form Validation</title>
+	<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+	<!-- <center> -->
+<h1 > REGISTRATION FORM </h1>
+<div class="formbox">
+<form name="RegForm" action="completion.html" onsubmit="return regForm()" method="post">
+
+	<p class="tags">Name: <input type="text" size=50 name="Name"> </p><br>
+	<p class="tags"> Address: <input type="text" size=50 name="Address"> </p><br>
+	<p class="tags">E-mail Address: <input type="text" size=50 name="EMail"> </p><br>
+	<p class="tags">Password: <input type="password" size=50 name="Password"> </p><br>
+	<p  class="tags">Telephone: <input type="text" size=50 name="Telephone"> </p><br>
+
+	<p  class="tags">Select your Year of Passing
+		<select type="text" value="" name="Subject">
+			<option>none</option>
+			<option>2017</option>
+			<option>2018</option>
+			<option>2019</option>
+			<option>2020</option>
+			<option>2021</option>
+			<option>2022</option>
+			<option>2023</option>
+			<option>2024</option>
+		</select></p>
+		<p class="tags">Please select your gender:</p>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+  <br>
+	<p class="tags">Areas of interests</p>
+	<input type="checkbox" id="web" name="interests" value="Web">
+  <label for="web">Web Development</label><br>
+  <input type="checkbox" id="mobile" name="interests" value="mobile">
+  <label for="mobile">Mobile App Development</label><br>
+  <input type="checkbox" id="python" name="interests" value="python">
+  <label for="python">Python Programming</label><br>
+	<input type="checkbox" id="Competitive" name="interests" value="Competitive">
+  <label for="Competitive">Competitive Coding</label>
+	<br>
+	<p>Comments: <textarea cols="55" name="Comment"> </textarea></p>
+	<p><input type="submit" value="Submit" name="Submit" >
+		<input type="reset" value="Reset" name="Reset">
+	</p>
+</form>
+</div>
+
+</center>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+</body>
+</html>
